@@ -45,6 +45,8 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
+        // we can't avoid a log4j dependency, but we can use the latest version
+        compile 'log4j:log4j:1.2.17'
 
         // Required by database connection
         compile 'mysql:mysql-connector-java:5.1.47'
@@ -54,7 +56,7 @@ grails.project.dependency.resolution = {
 
         // Required by docx4j functionality
         compile('org.docx4j:docx4j:2.8.1') {
-            excludes 'commons-codec', 'commons-io', 'commons-logging', 'log4j'
+            excludes 'commons-codec', 'commons-io', 'commons-logging'
         }
 
         // Required for barcode4j
