@@ -395,15 +395,15 @@ openboxes {
                 filters {}
             }
             warehouse {
-                name = "Warehouse Management"
+                name = "Administrador de Bodega"
                 filters {}
             }
             inventory {
-                name = "Inventory Management"
+                name = "Administración de Inventario"
                 filters {}
             }
             transaction {
-                name = "Transaction Management"
+                name = "Administración de Transacciones"
                 filters {}
             }
             fillRate {
